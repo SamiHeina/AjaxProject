@@ -1,0 +1,142 @@
+body {
+  background-image: url("black.png");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+/**/
+
+#finnkino {
+  display: block;
+  float: inline-start;
+  background-color: black;
+  margin: 5px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: gold !important;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  margin-top: 0;
+}
+#scrollUp {
+  display: none;
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+  background-color: black;
+  border-radius: 5px;
+}
+#scrollUp:hover {
+  background-color: rgb(46, 46, 46);
+  transition: 0.5s;
+}
+/**/
+form {
+  margin-left: 42%;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+#input {
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#searchbutton {
+  border-radius: 5px;
+  background-color: white;
+}
+
+#searchbutton:hover {
+  background-color: gold;
+  transition: 0.4s;
+}
+p {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  position: relative;
+  font-size: large;
+}
+/**/
+table {
+  margin: auto;
+  align-items: center;
+}
+#rating {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  padding-bottom: 4px;
+}
+#id {
+  color: gold;
+  font-size: x-large;
+}
+#id:hover {
+  color: rgb(199, 169, 2);
+}
+#buyTicket {
+  color: black;
+  border-width: 2px;
+  border-color: white;
+  text-align: center !important;
+  background-color: white;
+  block-size: 30px;
+  border-style: solid;
+  size: 45px;
+  border-radius: 5px;
+  margin: 5px;
+}
+#buyTicket:hover {
+  border-color: gold;
+}
+
+table,
+td {
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  color: white;
+  font-size: large;
+}
+tr {
+  margin: 10px;
+}
+#date {
+  font-size: small;
+}
+
+table {
+  border-radius: 8px;
+  padding: 10px;
+  border-color: black;
+  border-width: 5px;
+}
+#header {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: x-large;
+}
+#duration {
+  font-size: small;
+}
+
+#moviePoster {
+  display: block;
+  padding: 5px;
+}
+
+#place {
+  vertical-align: center;
+}
